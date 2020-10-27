@@ -30,9 +30,17 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <?php include('email_form_process.php'); ?>
 
-  <!-- ReCAPTCHA v2
+  <!-- ReCAPTCHA v3
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw"></script>
+  <script>
+      grecaptcha.ready(function () {
+          grecaptcha.execute('6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw', { action: 'contact' }).then(function (token) {
+              var recaptchaResponse = document.getElementById('recaptchaResponse');
+              recaptchaResponse.value = token;
+          });
+      });
+  </script>
 
 </head>
 <body>
@@ -275,7 +283,7 @@
     </div>
     <div class="row">
       <div class="three columns">
-        <div class="g-recaptcha" data-sitekey="6LeC2dsZAAAAAHWGKvYvqBJBOSk4d4CFASoR0G30"></div>
+        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
       </div>
     </div>
     <div class="row">
@@ -284,7 +292,6 @@
       </div>
     </div>
     </form>
-
   </div>
 
 
