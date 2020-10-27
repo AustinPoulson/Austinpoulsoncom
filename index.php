@@ -30,6 +30,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <?php include('email_form_process.php'); ?>
 
+  <!-- ReCAPTCHA v2
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body>
 
@@ -267,6 +271,11 @@
       	<label for="message">Message</label>
       	<textarea class="u-full-width" type="text" id="message" name="_message" value="<?= $message ?>"></textarea>
       	<span class="error"><?= $message_error ?></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="three columns">
+        <div class="g-recaptcha" data-sitekey="6LeC2dsZAAAAAHWGKvYvqBJBOSk4d4CFASoR0G30"></div>
       </div>
     </div>
     <div class="row">
