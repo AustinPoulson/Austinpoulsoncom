@@ -283,12 +283,12 @@
     </div>
     <div class="row">
       <div class="three columns">
-        <div class="g-recaptcha" name="recaptcha_response" data-sitekey="6LeC2dsZAAAAAHWGKvYvqBJBOSk4d4CFASoR0G30"></div>
+        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
       </div>
     </div>
     <div class="row">
       <div class="three columns">
-        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+        <input class="button-primary" type="submit" value="send" name="_send" data-submit="Sending...">
       </div>
     </div>
     </form>
