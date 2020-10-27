@@ -1,7 +1,7 @@
 <?php
 
 $name_error = $email_error = $subject_error = $message_error = $caught_error = $success = "";
-$name = $email = $message = $subject = "";
+$name = $email = $message = $subject = $captcha = "";
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
 	if(empty($_POST["_name"])){
@@ -42,8 +42,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		$message = clean_input($_POST["_message"]);
 	}
 
+	$captcha = ($_POST["_captcha"]);
 
-	if($caught_error == "" and $name != "" and $email != "" and $message != ""){
+	if($caught_error == "" and $name != "" and $email != "" and $message != "" and $captcha >= 0.5){
 		$message_body = "";
 		unset($_POST['submit']);
 		foreach($_POST as $key => $value){

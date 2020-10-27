@@ -275,7 +275,7 @@
     </div>
     <div class="row">
       <div class="three columns">
-        <div class="g-recaptcha" data-sitekey="6LeC2dsZAAAAAHWGKvYvqBJBOSk4d4CFASoR0G30"></div>
+        <div class="g-recaptcha" data-sitekey="6LeC2dsZAAAAAHWGKvYvqBJBOSk4d4CFASoR0G30" value="<?= $captcha ?>"></div>
       </div>
     </div>
     <div class="row">
