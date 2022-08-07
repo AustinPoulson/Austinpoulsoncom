@@ -19,8 +19,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 
   <!-- Icon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -50,11 +49,10 @@
   <div class="container">
   <span class="error"><?= $caught_error ?></span>
   <span class="success"><?= $success ?></span>
-  	<div class="row">
-      <div class="six columns" style="margin-top: 10%">
-      	<h1>Austin Poulson</h1>
-      </div>
-  	</div>
+  <header class="navBar">
+  	<h1>Austin Poulson</h1>
+  </header>
+
 
 <!-- Cover
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
