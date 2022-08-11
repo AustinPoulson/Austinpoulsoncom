@@ -61,7 +61,6 @@
     <div class="row">
       <div class="six columns">
         <img src="images/headshot.jpg" alt="headshot" width="100%">
-          <p>This is me with one of the wood duck houses I built for my Eagle Scout project. Once a year, I clean and prepare them for a new nest of wood ducks.</p>
       </div>
       <div class="six columns">
       	<a class="button" href="#education">Education</a>
@@ -88,9 +87,14 @@
       </div>
     </div>
     <div class="row">
+      <div class="three columns">
+      	<h2>Education</h2>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 5%">
       <div class="nine columns">
-      	<h2>University of Wisconsin - Stout</h2>
-      	<h3>B.S. Information and Communication Technology</h3>
+      	<h3>University of Wisconsin - Stout</h3>
+      	<h4>B.S. Information and Communication Technology</h4>
       	<h5>Minors: Computer Science, Project Management, and Photography</h5>
       	<p><!--My degree is in information and communication technology. Since this isn't a common degree, it can take some explaination to understand what I learned during my time at Stout. As a field of study, ICT encompasses all technology used for transfering information. However, I chose to center my education around programming with a heavy concentration in the soft skills applicable to software development. --></p>
       </div>
@@ -105,17 +109,32 @@
       </div>
     </div>
     <div class="row">
-      <div class="nine columns">
-      	<h2>Event Technology Crew - Memorial Student Center</h2>
-      	<h3>Event Technician - 5 years</h3>
-      	<p><!--Add some text here--></p>
+      <div class="three columns">
+      	<h2>Experience</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 10%">
+    <div class="row" style="margin-top: 5%">
       <div class="nine columns">
-      	<h2>Electro-Voice - Bosch Security Systems</h2>
-      	<h3>Engineering Intern - 8 months</h3>
-      	<p><!--Add some text here--></p>
+      	<h3>EtherMedia</h3>
+      	<h4>web and Mobile Developer - 2 years</h4>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Electro-Voice - Bosch Security Systems</h3>
+      	<h4>Engineering Intern - 8 months</h4>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Micro Electronics Inc - Micro Center</h3>
+      	<h4>Service Technician I - 1 year</h4>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Event Technology Crew - Memorial Student Center</h3>
+      	<h4>Event Technician - 5 years</h4>
       </div>
     </div>
 
