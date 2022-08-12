@@ -91,7 +91,7 @@
       	<h2>Education</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row">
       <div class="nine columns">
       	<h3>University of Wisconsin - Stout</h3>
       	<h4>B.S. Information and Communication Technology</h4>
@@ -113,7 +113,7 @@
       	<h2>Experience</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row">
       <div class="nine columns">
       	<h3>EtherMedia</h3>
       	<h4>web and Mobile Developer - 2 years</h4>
