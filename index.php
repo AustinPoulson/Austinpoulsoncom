@@ -67,7 +67,6 @@
       	<a class="button" href="#experience">Experience</a>
      	<a class="button" href="#skills">Skills</a>
      	<a class="button" href="#interests">Interests</a>
-   		<a class="button" href="projects.php">Projects</a>
    		<a class="button" href="#contact">Contact</a>
       	<div class="three columns" width="100%">
 
