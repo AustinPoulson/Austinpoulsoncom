@@ -53,8 +53,11 @@
   <div class="container">
   <span class="error"><?= $caught_error ?></span>
   <span class="success"><?= $success ?></span>
-  	<div class="row">
-      <div class="six columns" style="margin-top: 10%">
+  	<div class="row headshotHeader">
+      <div class="two columns">
+        <img src="images/headshot.jpg" alt="headshot" class="headerImage" width="100%">
+      </div>
+      <div class="six columns nameHeader">
       	<h1>Austin Poulson</h1>
       </div>
   	</div>
@@ -62,15 +65,12 @@
 <!-- Cover
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
-      <div class="six columns">
-        <img src="images/headshot.jpg" alt="headshot" width="100%">
-      </div>
-      <div class="six columns">
+      <div class="twelve columns navButtons">
       	<a class="button" href="#education">Education</a>
       	<a class="button" href="#experience">Experience</a>
-     	<a class="button" href="#skills">Skills</a>
-     	<a class="button" href="#interests">Interests</a>
-   		<a class="button" href="#contact">Contact</a>
+     	  <a class="button" href="#skills">Skills</a>
+     	  <a class="button" href="#interests">Interests</a>
+   		  <a class="button" href="#contact">Contact</a>
       	<div class="three columns" width="100%">
 
       	</div>

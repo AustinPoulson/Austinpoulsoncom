@@ -1,0 +1,16 @@
+.headerImage {
+  border-radius: 50%;
+  align-self: center;
+}
+
+.nameHeader {
+  align-self: center;
+}
+
+.headshotHeader {
+  margin-top: 10%;
+}
+
+.navButtons {
+  margin-top: 2%;
+}
