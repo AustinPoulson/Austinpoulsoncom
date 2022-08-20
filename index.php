@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 
   <!-- Icon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,8 +35,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://www.google.com/recaptcha/api.js?render=6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw"></script>
   <script>
+      import {recaptchaKey} from './keys.js';
+
       grecaptcha.ready(function () {
-          grecaptcha.execute('6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw', { action: 'contact' }).then(function (token) {
+          grecaptcha.execute(recaptchaKey, { action: 'contact' }).then(function (token) {
               var recaptchaResponse = document.getElementById('recaptchaResponse');
               recaptchaResponse.value = token;
           });
