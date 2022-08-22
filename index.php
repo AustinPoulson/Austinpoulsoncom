@@ -68,7 +68,7 @@
       <div class="twelve columns navButtons">
       	<a class="button" href="#education">Education</a>
       	<a class="button" href="#experience">Experience</a>
-     	  <a class="button" href="#skills">Skills</a>
+     	  <a class="button" href="#projects">Projects</a>
      	  <a class="button" href="#interests">Interests</a>
    		  <a class="button" href="#contact">Contact</a>
       	<div class="three columns" width="100%">
@@ -139,89 +139,33 @@
       </div>
     </div>
 
-<!-- Skills
+<!-- Projects
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row  section">
-      <a name="skills"></a>
+      <a name="projects"></a>
       <div class="three columns">
-    	<img src="images/skills.png" alt="skills" width="30%">
+    	<img src="images/skills.png" alt="projects" width="30%">
       </div>
     </div>
     <div class="row">
       <div class="three columns">
-      	<h2>Skills</h2>
+      	<h2>Projects</h2>
       </div>
     </div>
     <div class="row subSection">
-      <div class="four columns">
-      	<ul>
-      	  <h5>Development</h5>
-      	  <li>
-      		Web Technologies & Frameworks
-      		<ul>
-      	      <li>HTML/CSS</li>
-      	      <li>Skeleton CSS</li>
-      	      <li>PHP</li>
-      		</ul>
-      	  </li>
-      	  <li>
-      	  	Programming Languages
-      	  	<ul>
-      	  	  <li>Python</li>
-      	  	  <li>C++</li>
-      	  	  <li>Java</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Computer Engineering
-      	  	<ul>
-      	  	  <li>Arduino</li>
-      	  	  <li>Raspberry Pi</li>
-      	  	  <li>Soldering</li>
-      	  	</ul>
-      	  </li>
-      	</ul>
+      <div class="nine columns">
+      	<h4>EtherMedia</h4>
+      	<p>EtherMedia is a multiplatform sales solution for photos and videos. I'm involved in developing the front end using React Native.</p>
+        <a class="button" href="https://ethermedia.app/home">EtherMedia</a>
       </div>
-      <div class="four columns">
-      	<ul>
-      	  <h5>Design</h5>
-      	  <li>
-      	  	Adobe
-      	  	<ul>
-      	      <li>Photoshop</li>
-      	      <li>Premiere</li>
-      	      <li>lightroom</li>
-      	      <li>indesign</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Audio
-      	  	<ul>
-      	  	  <li>Music production</li>
-      	  	  <li>Sound effects</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Photography
-      	  	<ul>
-      	  	  <li>Product</li>
-      	  	  <li>Advertising</li>
-      	  	  <li>Art</li>
-      	  	</ul>
-      	  </li>
-      	</ul>
-      </div>
-      <div class="four columns">
-      	<ul>
-      	  <h5>Life</h5>
-      	  <li>Desire to learn</li>
-      	  <li>Attention to detail</li>
-      	  <li>Drive to succeed</li>
-      	  <li>Creativity</li>
-      	  <li>Commitment</li>
-      	  <li>Customer service</li>
-      	  <li>Problem solving</li>
-      	</ul>
+    </div>
+    <div class="row subSection">
+      <div class="nine columns">
+      	<h4>Other Projects</h4>
+      	<p>For other projects I'm involved with, visit my GitHub profile!</p>
+        <a class="button" href="https://github.com/AustinPoulson">GitHub</a>
+        <p>I also contribute on Stack Overflow.</p>
+        <a class="button" href="https://stackoverflow.com/users/12817213/austin-poulson">Stack Overflow</a>
       </div>
     </div>
 
