@@ -97,7 +97,7 @@
       <div class="nine columns">
       	<h3>University of Wisconsin - Stout</h3>
       	<h4>B.S. Information and Communication Technology</h4>
-      	<h5>Minors: Computer Science, Project Management, and Photography</h5>
+      	<h5>Minors: Computer Science | Project Management</h5>
       	<p><!--My degree is in information and communication technology. Since this isn't a common degree, it can take some explaination to understand what I learned during my time at Stout. As a field of study, ICT encompasses all technology used for transfering information. However, I chose to center my education around programming with a heavy concentration in the soft skills applicable to software development. --></p>
       </div>
     </div>
@@ -242,7 +242,9 @@
     <div class="row" style="margin-top: 5%">
       <div class="nine columns">
       	<h4>Music</h4>
-      	<p>Music has always been a huge interest of mine. In fact, it's one of the reasons I became interested in programming. I've wanted to develop recording plugins ever since I started recording. Although that type of development is still outside of my understanding, It remains as one of my ultimate goals. </p>
+        <a class="button" href="https://youtu.be/sVw1bFMeHG4">Austa</a>
+        <a class="button" href="https://youtu.be/hr9C0VJZTFw">Taco House</a>
+        <a class="button" href="https://open.spotify.com/track/4bbtjAHYeGb3KZfmTBkrYQ?si=42b7a7b034354239">Correlations</a>
       </div>
     </div>
     <div class="row" style="margin-top: 5%">
