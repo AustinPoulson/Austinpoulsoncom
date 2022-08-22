@@ -82,29 +82,28 @@
 
 <!-- Education
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row section">
       <a name="education"></a>
       <div class="three columns">
     	<img src="images/graduated.png" alt="graduation" width="30%">
       </div>
     </div>
-    <div class="row">
+    <div class="row subSection">
       <div class="three columns">
       	<h2>Education</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row subSection">
       <div class="nine columns">
       	<h3>University of Wisconsin - Stout</h3>
       	<h4>B.S. Information and Communication Technology</h4>
       	<h5>Minors: Computer Science | Project Management</h5>
-      	<p><!--My degree is in information and communication technology. Since this isn't a common degree, it can take some explaination to understand what I learned during my time at Stout. As a field of study, ICT encompasses all technology used for transfering information. However, I chose to center my education around programming with a heavy concentration in the soft skills applicable to software development. --></p>
       </div>
     </div>
 
 <!-- Experience
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row  section">
       <a name="experience"></a>
       <div class="three columns">
     	<img src="images/experience.png" alt="experience" width="30%">
@@ -115,25 +114,25 @@
       	<h2>Experience</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row subSection">
       <div class="nine columns">
       	<h3>EtherMedia</h3>
       	<h4>web and Mobile Developer - 2 years</h4>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection" style="margin-top: 5%">
       <div class="nine columns">
       	<h3>Electro-Voice - Bosch Security Systems</h3>
       	<h4>Engineering Intern - 8 months</h4>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection" style="margin-top: 5%">
       <div class="nine columns">
       	<h3>Micro Electronics Inc - Micro Center</h3>
       	<h4>Service Technician I - 1 year</h4>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection" style="margin-top: 5%">
       <div class="nine columns">
       	<h3>Event Technology Crew - Memorial Student Center</h3>
       	<h4>Event Technician - 5 years</h4>
@@ -142,7 +141,7 @@
 
 <!-- Skills
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row  section">
       <a name="skills"></a>
       <div class="three columns">
     	<img src="images/skills.png" alt="skills" width="30%">
@@ -153,7 +152,7 @@
       	<h2>Skills</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row subSection">
       <div class="four columns">
       	<ul>
       	  <h5>Development</h5>
@@ -228,7 +227,7 @@
 
 <!-- Interests
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row  section">
       <a name="interests"></a>
       <div class="three columns">
     	<img src="images/interests.png" alt="interests" width="30%">
@@ -239,7 +238,7 @@
       	<h2>Interests</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
       	<h4>Music</h4>
         <a class="button" href="https://youtu.be/sVw1bFMeHG4">Austa</a>
@@ -247,28 +246,28 @@
         <a class="button" href="https://open.spotify.com/track/4bbtjAHYeGb3KZfmTBkrYQ?si=42b7a7b034354239">Correlations</a>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
       	<h4>Photography</h4>
       	<p>Photography is another of my major interests. I learned the skill as a part of an academic minor in school. My favorite types of photography are studio art and nature. On top of allowing me to have original images for development, I feel that photography helps me to maintain an eye for detail and visual literacy.</p>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
       	<h4>Outdoors</h4>
       	<p>I was raised with an appreciation for the outdoors. Whether I'm camping, canoeing, or just spending time at a park, I love being around nature.</p>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 10%">
+<!-- Contact
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  
+    <div class="row section">
       <a name="contact"></a>
       <div class="three columns">
     	<img src="images/contact.png" alt="contact" width="30%">
       </div>
     </div>
-    
-<!-- Contact
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
     <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
     <div class="row">
@@ -321,7 +320,7 @@
 <!-- Footnote
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row" style="margin-top: 5%">
+    <div class="row  section">
       <div class="twelve columns">
         <p class="grayText">This site was designed and programmed by Austin Poulson.</p>
       </div>
