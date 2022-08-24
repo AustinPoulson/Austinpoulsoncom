@@ -59,10 +59,11 @@
       </div>
       <div class="six columns nameHeader">
       	<h1>Austin Poulson</h1>
+        <p>Hi! I'm Austin Poulson, a developer and general computer nerd living Plymouth, Minnesota.</p>
       </div>
   	</div>
 
-<!-- Cover
+<!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
       <div class="twelve columns navButtons">
@@ -71,12 +72,6 @@
      	  <a class="button" href="#projects">Projects</a>
      	  <a class="button" href="#interests">Interests</a>
    		  <a class="button" href="#contact">Contact</a>
-      	<div class="three columns" width="100%">
-
-      	</div>
-      	<div class="three columns" width="100%">
-      		
-      	</div>
       </div>
     </div>
 
@@ -192,14 +187,14 @@
     </div>
     <div class="row subSection">
       <div class="nine columns">
-      	<h4>Photography</h4>
-      	<p>Photography is another of my major interests. I learned the skill as a part of an academic minor in school. My favorite types of photography are studio art and nature. On top of allowing me to have original images for development, I feel that photography helps me to maintain an eye for detail and visual literacy.</p>
+      	<h4>Art and Photography</h4>
+      	<a class="button" href="https://www.instagram.com/austapasta">Instagram</a>
       </div>
     </div>
     <div class="row subSection">
       <div class="nine columns">
       	<h4>Outdoors</h4>
-      	<p>I was raised with an appreciation for the outdoors. Whether I'm camping, canoeing, or just spending time at a park, I love being around nature.</p>
+      	<p>I was raised with an appreciation for the outdoors. Whether I'm camping, rowing, or just spending time at a park, I love being around nature.</p>
       </div>
     </div>
 
@@ -266,7 +261,7 @@
   <div class="container">
     <div class="row  section">
       <div class="twelve columns">
-        <p class="grayText">This site was designed and programmed by Austin Poulson.</p>
+        <p class="grayText">This site was designed and developed by myself, Austin Poulson.</p>
       </div>
     </div>
 
