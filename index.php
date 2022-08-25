@@ -59,7 +59,7 @@
       </div>
       <div class="six columns nameHeader">
       	<h1>Austin Poulson</h1>
-        <p>Hi! I'm Austin Poulson, a developer and general computer nerd living Plymouth, Minnesota.</p>
+        <p>Hi! I'm Austin Poulson, a developer and general computer nerd living in Plymouth, Minnesota.</p>
       </div>
   	</div>
 
