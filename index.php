@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 
   <!-- Icon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,8 +35,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://www.google.com/recaptcha/api.js?render=6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw"></script>
   <script>
+      import {recaptchaKey} from './keys.js';
+
       grecaptcha.ready(function () {
-          grecaptcha.execute('6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw', { action: 'contact' }).then(function (token) {
+          grecaptcha.execute(recaptchaKey, { action: 'contact' }).then(function (token) {
               var recaptchaResponse = document.getElementById('recaptchaResponse');
               recaptchaResponse.value = token;
           });
@@ -50,164 +53,120 @@
   <div class="container">
   <span class="error"><?= $caught_error ?></span>
   <span class="success"><?= $success ?></span>
-  	<div class="row">
-      <div class="six columns" style="margin-top: 10%">
+  	<div class="row headshotHeader">
+      <div class="two columns">
+        <img src="images/headshot.jpg" alt="headshot" class="headerImage" width="100%">
+      </div>
+      <div class="six columns nameHeader">
       	<h1>Austin Poulson</h1>
+        <p>Hi! I'm Austin Poulson, a developer and general computer nerd living in Plymouth, Minnesota.</p>
       </div>
   	</div>
 
-<!-- Cover
+<!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
-      <div class="six columns">
-        <img src="images/headshot.jpg" alt="headshot" width="100%">
-          <p>This is me with one of the wood duck houses I built for my Eagle Scout project. Once a year, I clean and prepare them for a new nest of wood ducks.</p>
-      </div>
-      <div class="six columns">
+      <div class="twelve columns navButtons">
       	<a class="button" href="#education">Education</a>
       	<a class="button" href="#experience">Experience</a>
-     	<a class="button" href="#skills">Skills</a>
-     	<a class="button" href="#interests">Interests</a>
-   		<a class="button" href="gallery.php">Gallery</a>
-   		<a class="button" href="#contact">Contact</a>
-      	<div class="three columns" width="100%">
-
-      	</div>
-      	<div class="three columns" width="100%">
-      		
-      	</div>
+     	  <a class="button" href="#projects">Projects</a>
+     	  <a class="button" href="#interests">Interests</a>
+   		  <a class="button" href="#contact">Contact</a>
       </div>
     </div>
 
 <!-- Education
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row section">
       <a name="education"></a>
       <div class="three columns">
     	<img src="images/graduated.png" alt="graduation" width="30%">
       </div>
     </div>
-    <div class="row">
+    <div class="row subSection">
+      <div class="three columns">
+      	<h2>Education</h2>
+      </div>
+    </div>
+    <div class="row subSection">
       <div class="nine columns">
-      	<h2>University of Wisconsin - Stout</h2>
-      	<h3>B.S. Information and Communication Technology</h3>
-      	<h5>Minors: Computer Science, Project Management, and Photography</h5>
-      	<p><!--My degree is in information and communication technology. Since this isn't a common degree, it can take some explaination to understand what I learned during my time at Stout. As a field of study, ICT encompasses all technology used for transfering information. However, I chose to center my education around programming with a heavy concentration in the soft skills applicable to software development. --></p>
+      	<h3>University of Wisconsin - Stout</h3>
+      	<h4>B.S. Information and Communication Technology</h4>
+      	<h5>Minors: Computer Science | Project Management</h5>
       </div>
     </div>
 
 <!-- Experience
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row  section">
       <a name="experience"></a>
       <div class="three columns">
     	<img src="images/experience.png" alt="experience" width="30%">
       </div>
     </div>
     <div class="row">
-      <div class="nine columns">
-      	<h2>Event Technology Crew - Memorial Student Center</h2>
-      	<h3>Event Technician - 5 years</h3>
-      	<p><!--Add some text here--></p>
+      <div class="three columns">
+      	<h2>Experience</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 10%">
+    <div class="row subSection">
       <div class="nine columns">
-      	<h2>Electro-Voice - Bosch Security Systems</h2>
-      	<h3>Engineering Intern - 8 months</h3>
-      	<p><!--Add some text here--></p>
+      	<h3>EtherMedia</h3>
+      	<h4>web and Mobile Developer - 2 years</h4>
+      </div>
+    </div>
+    <div class="row subSection" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Electro-Voice - Bosch Security Systems</h3>
+      	<h4>Engineering Intern - 8 months</h4>
+      </div>
+    </div>
+    <div class="row subSection" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Micro Electronics Inc - Micro Center</h3>
+      	<h4>Service Technician I - 1 year</h4>
+      </div>
+    </div>
+    <div class="row subSection" style="margin-top: 5%">
+      <div class="nine columns">
+      	<h3>Event Technology Crew - Memorial Student Center</h3>
+      	<h4>Event Technician - 5 years</h4>
       </div>
     </div>
 
-<!-- Skills
+<!-- Projects
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
-      <a name="skills"></a>
+    <div class="row  section">
+      <a name="projects"></a>
       <div class="three columns">
-    	<img src="images/skills.png" alt="skills" width="30%">
+    	<img src="images/skills.png" alt="projects" width="30%">
       </div>
     </div>
     <div class="row">
       <div class="three columns">
-      	<h2>Skills</h2>
+      	<h2>Projects</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="four columns">
-      	<ul>
-      	  <h5>Development</h5>
-      	  <li>
-      		Web Technologies & Frameworks
-      		<ul>
-      	      <li>HTML/CSS</li>
-      	      <li>Skeleton CSS</li>
-      	      <li>PHP</li>
-      		</ul>
-      	  </li>
-      	  <li>
-      	  	Programming Languages
-      	  	<ul>
-      	  	  <li>Python</li>
-      	  	  <li>C++</li>
-      	  	  <li>Java</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Computer Engineering
-      	  	<ul>
-      	  	  <li>Arduino</li>
-      	  	  <li>Raspberry Pi</li>
-      	  	  <li>Soldering</li>
-      	  	</ul>
-      	  </li>
-      	</ul>
+    <div class="row subSection">
+      <div class="nine columns">
+      	<h4>EtherMedia</h4>
+      	<p>EtherMedia is a multiplatform sales solution for photos and videos. I'm involved in developing the front end using React Native.</p>
+        <a class="button" href="https://ethermedia.app/home">EtherMedia</a>
       </div>
-      <div class="four columns">
-      	<ul>
-      	  <h5>Design</h5>
-      	  <li>
-      	  	Adobe
-      	  	<ul>
-      	      <li>Photoshop</li>
-      	      <li>Premiere</li>
-      	      <li>lightroom</li>
-      	      <li>indesign</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Audio
-      	  	<ul>
-      	  	  <li>Music production</li>
-      	  	  <li>Sound effects</li>
-      	  	</ul>
-      	  </li>
-      	  <li>
-      	  	Photography
-      	  	<ul>
-      	  	  <li>Product</li>
-      	  	  <li>Advertising</li>
-      	  	  <li>Art</li>
-      	  	</ul>
-      	  </li>
-      	</ul>
-      </div>
-      <div class="four columns">
-      	<ul>
-      	  <h5>Life</h5>
-      	  <li>Desire to learn</li>
-      	  <li>Attention to detail</li>
-      	  <li>Drive to succeed</li>
-      	  <li>Creativity</li>
-      	  <li>Commitment</li>
-      	  <li>Customer service</li>
-      	  <li>Problem solving</li>
-      	</ul>
+    </div>
+    <div class="row subSection">
+      <div class="nine columns">
+      	<h4>Other Projects</h4>
+      	<p>For other projects I'm involved with, visit my GitHub profile!</p>
+        <a class="button" href="https://github.com/AustinPoulson">GitHub</a>
+        <p>I also contribute on Stack Overflow.</p>
+        <a class="button" href="https://stackoverflow.com/users/12817213/austin-poulson">Stack Overflow</a>
       </div>
     </div>
 
 <!-- Interests
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row" style="margin-top: 10%">
+    <div class="row  section">
       <a name="interests"></a>
       <div class="three columns">
     	<img src="images/interests.png" alt="interests" width="30%">
@@ -218,34 +177,36 @@
       	<h2>Interests</h2>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
       	<h4>Music</h4>
-      	<p>Music has always been a huge interest of mine. In fact, it's one of the reasons I became interested in programming. I've wanted to develop recording plugins ever since I started recording. Although that type of development is still outside of my understanding, It remains as one of my ultimate goals. </p>
+        <a class="button" href="https://youtu.be/sVw1bFMeHG4">Austa</a>
+        <a class="button" href="https://youtu.be/hr9C0VJZTFw">Taco House</a>
+        <a class="button" href="https://open.spotify.com/track/4bbtjAHYeGb3KZfmTBkrYQ?si=42b7a7b034354239">Correlations</a>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
-      	<h4>Photography</h4>
-      	<p>Photography is another of my major interests. I learned the skill as a part of an academic minor in school. My favorite types of photography are studio art and nature. On top of allowing me to have original images for development, I feel that photography helps me to maintain an eye for detail and visual literacy.</p>
+      	<h4>Art and Photography</h4>
+      	<a class="button" href="https://www.instagram.com/austapasta">Instagram</a>
       </div>
     </div>
-    <div class="row" style="margin-top: 5%">
+    <div class="row subSection">
       <div class="nine columns">
       	<h4>Outdoors</h4>
-      	<p>I was raised with an appreciation for the outdoors. Whether I'm camping, canoeing, or just spending time at a park, I love being around nature.</p>
+      	<p>I was raised with an appreciation for the outdoors. Whether I'm camping, rowing, or just spending time at a park, I love being around nature.</p>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 10%">
+<!-- Contact
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  
+    <div class="row section">
       <a name="contact"></a>
       <div class="three columns">
     	<img src="images/contact.png" alt="contact" width="30%">
       </div>
     </div>
-    
-<!-- Contact
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
     <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
     <div class="row">
@@ -298,9 +259,9 @@
 <!-- Footnote
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row" style="margin-top: 5%">
+    <div class="row  section">
       <div class="twelve columns">
-        <p class="grayText">This site was designed and programmed by Austin Poulson.</p>
+        <p class="grayText">This site was designed and developed by myself, Austin Poulson.</p>
       </div>
     </div>
 
