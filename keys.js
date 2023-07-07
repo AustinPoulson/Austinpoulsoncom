@@ -1,1 +1,0 @@
-export default recaptchaKey = '6LeJ3NsZAAAAAPIILfmrTyc3ISWu-Gt9Z6rdj7tw';
